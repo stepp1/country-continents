@@ -19,7 +19,7 @@
   ],
   "resources": [
     { 
-      "path": "data/country-coninents.csv",
+      "path": "data/country-continents.csv",
       "schema": {
         "fields": [
           {
