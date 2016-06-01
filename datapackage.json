@@ -1,0 +1,37 @@
+{
+  "name": "country-continents",
+  "title": "Country Continents",
+  "descriptions": "Countries with their two letter continent codes",
+  "licenses" : [
+    {
+      "type": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "Continent-codes", "Country continents", "Countries", "Country continents"],
+  "version": "0.1.0",
+  "last_updated": "2016-06-01",
+  "sources": [
+    {
+      "name": "Geonames",
+      "web": "http://www.geonames.org/"
+    }
+  ],
+  "resources": [
+    { 
+      "path": "data/country-coninents.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Continent",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]  
+}
